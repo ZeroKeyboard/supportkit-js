@@ -33,7 +33,7 @@ app.run(function($rootScope, Restangular, SlackRestangular){
 					}
 					//if support is available toggle live chat
 					if($rootScope.supportStatus > 0){
-						SupportKit.init({appToken: 'cbp744taocnfdwewyls6lt36n'});
+						SupportKit.init({appToken: 'your support token here'});
 					}
 				});
 			};
